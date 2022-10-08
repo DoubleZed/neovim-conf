@@ -40,3 +40,5 @@ nmap <F8> :TagbarToggle<CR>
 :set completeopt-=preview " For No Previews
 
 :colorscheme jellybeans
+
+inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
