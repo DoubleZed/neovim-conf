@@ -43,5 +43,5 @@ nmap <F8> :TagbarToggle<CR>
 
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
 
-# Workaround for SSH via Windows Terminal
+" Workaround for SSH via Windows Terminal
 :set clipboard=unnamedplus
