@@ -42,3 +42,6 @@ nmap <F8> :TagbarToggle<CR>
 :colorscheme jellybeans
 
 inoremap <expr> <Tab> pumvisible() ? coc#_select_confirm() : "<Tab>"
+
+# Workaround for SSH via Windows Terminal
+:set clipboard=unnamedplus
